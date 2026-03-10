@@ -10,10 +10,3 @@ start_kb = InlineKeyboardMarkup(inline_keyboard=[
 back_to_start_kb = InlineKeyboardMarkup(inline_keyboard=[
     [InlineKeyboardButton(text='⬅️Назад', callback_data='back_to_start')]
 ])
-
-
-record_kb = InlineKeyboardMarkup(inline_keyboard=[
-    [InlineKeyboardButton(text='➕ записаться', callback_data='record')],
-    [InlineKeyboardButton(text='⬅️Назад', callback_data='back_to_start')],
-    [InlineKeyboardButton(text='👤посмотреть профиль мастера', callback_data='profile')]
-])
